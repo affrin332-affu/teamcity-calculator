@@ -28,6 +28,7 @@ def home():
 
 
 @app.route("/calculate", methods=["POST"])
+#function that perfroms the calclulations
 def perform_calculation():
     data = request.get_json()
 
